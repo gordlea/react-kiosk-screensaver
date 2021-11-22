@@ -1,0 +1,45 @@
+{
+  "name": "react-screensaver",
+  "version": "1.0.0",
+  "description": "Made with create-react-library",
+  "author": "gordlea",
+  "license": "MIT",
+  "repository": "gordlea/react-screensaver",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "yarn@3.1.0",
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.16.3",
+    "@linaria/core": "^3.0.0-beta.13",
+    "@linaria/react": "^3.0.0-beta.13",
+    "@linaria/shaker": "^3.0.0-beta.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@linaria/babel-preset": "^3.0.0-beta.13",
+    "@linaria/rollup": "^3.0.0-beta.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.1",
+    "rollup-plugin-css-only": "^3.1.0"
+  }
+}
