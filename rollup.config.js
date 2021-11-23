@@ -6,7 +6,7 @@ import css from 'rollup-plugin-css-only';
 import pkgJson from './package.json'
 
 const config = {
-  input: 'src/index.js',
+  input: 'src/Screensaver.js',
   output: [
     {
       dir: './dist',

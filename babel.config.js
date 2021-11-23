@@ -19,7 +19,7 @@ module.exports = {
   presets: [
       [ '@babel/preset-react', { development: true }],
       [ '@babel/preset-env', { modules: false, useBuiltIns: false }],
-      "@linaria",
+      "@linaria/babel-preset",
   ],
   env: {
       test: {

@@ -1,6 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import { styled } from '@linaria/react';
+
+
+const StyledButton = styled.button`
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  background-color: ${props => props.primary ? 'xys:#1ea7fd' : 'transparent'};
+  box-shadow: ${props => props.primary ? 'xys:#1ea7fd' : 'transparent'};
+
+`;
+
 
 /**
  * Primary UI component for user interaction
@@ -8,14 +23,14 @@ import './button.css';
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <button
+    <StyledButton
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor }}
+      // className={[buttonWrapper, `storybook-button--${size}`, mode].join(' ')}
+      // style={backgroundColor && { backgroundColor }}
+      primary={primary}
       {...props}
-    >
-      {label}
-    </button>
+    >LABEL
+    </StyledButton>
   );
 };
 
