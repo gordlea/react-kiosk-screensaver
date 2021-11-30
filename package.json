@@ -10,8 +10,8 @@
   "source": "src/index.js",
   "scripts": {
     "build": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 --ci -s .storybook/assets",
+    "build-storybook": "build-storybook -s .storybook/assets"
   },
   "engines": {
     "node": ">=12"

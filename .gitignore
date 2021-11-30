@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/storybook-static
 
 # Runtime data
 pids
@@ -98,3 +99,4 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
