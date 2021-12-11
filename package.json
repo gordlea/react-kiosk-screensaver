@@ -1,7 +1,7 @@
 {
   "name": "react-kiosk-screensaver",
   "version": "1.0.0-alpha.0",
-  "description": "Made with create-react-library",
+  "description": "A screensaver for a react/browser based kiosk",
   "author": "gordlea",
   "license": "MIT",
   "repository": "gordlea/react-screensaver",
