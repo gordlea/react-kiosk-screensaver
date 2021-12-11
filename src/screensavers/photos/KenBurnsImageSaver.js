@@ -9,16 +9,6 @@ const imageWrapClass = css`
   width: 100%;
   height: 100%;
 `
-// animation: move var(--screensaver-swap-interval) infinite;
-// position: absolute;
-// inset: 0px;
-// box-sizing: border-box;
-// padding: 0px;
-// border: none;
-// margin: auto;
-// display: block;
-// width: 0px;
-// height: 0px;
 
 const imageClass = css`
   // min-width: 100%;

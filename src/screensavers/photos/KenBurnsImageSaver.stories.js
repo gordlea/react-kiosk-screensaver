@@ -69,7 +69,15 @@ const Template = (args) => {
 export const Portrait = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Portrait.args = {
-  imageUrls: ['/test-photo-1.jpg', '/test-photo-2.jpg'],
+  imageUrls: [
+    'landscape01_4032x3024.png',
+    'landscape02_4032x3024.png',
+    'landscape03_4032x3024.png',
+    'panoramic_9000x2000.png',
+    'portrait01_3024x4032.png',
+    'portrait01_3024x4032.png',
+    'portrait01_3024x4032.png',
+  ],
   style: {
     width: '50%',
     height: '80%',
@@ -79,7 +87,15 @@ Portrait.args = {
 export const Landscape = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Landscape.args = {
-  imageUrls: ['/test-photo-1.jpg', '/test-photo-2.jpg'],
+  imageUrls: [
+    'landscape01_4032x3024.png',
+    'landscape02_4032x3024.png',
+    'landscape03_4032x3024.png',
+    'panoramic_9000x2000.png',
+    'portrait01_3024x4032.png',
+    'portrait01_3024x4032.png',
+    'portrait01_3024x4032.png',
+  ],
   style: {
     width: '80%',
     height: '50%',

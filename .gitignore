@@ -100,3 +100,4 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
+.linaria-cache
