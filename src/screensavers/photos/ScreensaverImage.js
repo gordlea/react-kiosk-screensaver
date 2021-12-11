@@ -2,7 +2,7 @@ import { css } from '@linaria/core'
 import { useEffect, useMemo, useRef } from 'react'
 import { styled } from '@linaria/react'
 
-import useImageDimensions from './useImageDimensions'
+import useImageDimensions from './hooks/useImageDimensions'
   // transform: translate(${p => p.startTranslateX}, ${p => p.startTranslateY});
 const AnimatedImage = styled.img`
   position: absolute;
